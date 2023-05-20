@@ -9,6 +9,9 @@
     "server": "nodemon Backend/server",
     "client": "npm start --prefix frontend",
     "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "data:import":"node Backend/seeder",
+    "data:destroy":"node Backend/seeder -d",
+
     "test": "click on page doesn't work in react but works after refresh"
   },
   "author": "Bharat Panwar",
