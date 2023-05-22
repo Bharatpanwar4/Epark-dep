@@ -9,9 +9,8 @@
     "server": "nodemon Backend/server",
     "client": "npm start --prefix frontend",
     "dev": "concurrently \"npm run server\" \"npm run client\"",
-    "data:import":"node Backend/seeder",
-    "data:destroy":"node Backend/seeder -d",
-
+    "data:import": "node Backend/seeder",
+    "data:destroy": "node Backend/seeder -d",
     "test": "click on page doesn't work in react but works after refresh"
   },
   "author": "Bharat Panwar",
@@ -21,6 +20,7 @@
     "colors": "^1.4.0",
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
+    "express-async-handler": "^1.2.0",
     "mongoose": "^7.2.0"
   },
   "devDependencies": {
